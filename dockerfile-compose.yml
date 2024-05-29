@@ -20,7 +20,7 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgresql://ritik:1234@localhost:5432/dynamicJobs
+      POSTGRES_URL: postgresql://ritik:1234@localhost:5432/dynamicJobs
 
 volumes:
   db-data:
